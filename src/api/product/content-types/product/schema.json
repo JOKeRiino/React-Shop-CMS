@@ -30,23 +30,6 @@
         "videos"
       ]
     },
-    "product_price": {
-      "type": "decimal",
-      "required": true
-    },
-    "product_stock": {
-      "type": "integer",
-      "required": true,
-      "min": 0
-    },
-    "product_discounted_price": {
-      "type": "decimal",
-      "min": 0
-    },
-    "product_id": {
-      "type": "uid",
-      "required": true
-    },
     "product_weight": {
       "displayName": "product_weight",
       "type": "component",
