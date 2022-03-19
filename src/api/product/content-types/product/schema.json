@@ -12,16 +12,16 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "product_name": {
+    "name": {
       "type": "string",
       "required": true,
       "unique": true
     },
-    "product_description": {
+    "description": {
       "type": "richtext",
       "required": true
     },
-    "product_image": {
+    "images": {
       "type": "media",
       "multiple": true,
       "required": true,
@@ -30,23 +30,44 @@
         "videos"
       ]
     },
-    "product_weight": {
-      "displayName": "product_weight",
-      "type": "component",
-      "repeatable": false,
-      "component": "product-info.product-weight"
-    },
-    "product_options": {
-      "displayName": "product_options",
-      "type": "component",
-      "repeatable": true,
-      "component": "product-info.product-options"
-    },
     "collections": {
       "type": "relation",
       "relation": "manyToMany",
       "target": "api::collection.collection",
       "inversedBy": "products"
+    },
+    "price": {
+      "type": "decimal"
+    },
+    "strike_price": {
+      "type": "decimal"
+    },
+    "variant": {
+      "type": "component",
+      "repeatable": true,
+      "component": "variant.variant"
+    },
+    "Washing": {
+      "type": "component",
+      "repeatable": false,
+      "component": "metadata.metadata"
+    },
+    "Material": {
+      "type": "component",
+      "repeatable": false,
+      "component": "metadata.metadata"
+    },
+    "Fit": {
+      "type": "component",
+      "repeatable": false,
+      "component": "metadata.metadata"
+    },
+    "bestseller_image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }

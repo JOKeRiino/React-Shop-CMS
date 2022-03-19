@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_variant_variant_options",
+  "info": {
+    "displayName": "variant_option",
+    "icon": "apple-alt"
+  },
+  "options": {},
+  "attributes": {
+    "text_option": {
+      "type": "string"
+    },
+    "inventory_stock": {
+      "type": "integer"
+    }
+  }
+}
