@@ -1,0 +1,31 @@
+{
+  "kind": "singleType",
+  "collectionName": "about_pages",
+  "info": {
+    "singularName": "about-page",
+    "pluralName": "about-pages",
+    "displayName": "AboutPage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "secondtitle": {
+      "type": "string"
+    },
+    "corevalues": {
+      "displayName": "corevalues",
+      "type": "component",
+      "repeatable": false,
+      "component": "corevalues.corevalues"
+    },
+    "pagetitle": {
+      "type": "string"
+    },
+    "text_section": {
+      "type": "richtext"
+    }
+  }
+}

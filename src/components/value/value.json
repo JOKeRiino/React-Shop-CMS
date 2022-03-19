@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_value_values",
+  "info": {
+    "displayName": "value",
+    "icon": "address-book",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "value_name": {
+      "type": "string"
+    },
+    "value_desc": {
+      "type": "richtext"
+    }
+  }
+}

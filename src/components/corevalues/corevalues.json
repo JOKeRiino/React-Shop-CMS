@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_corevalues_corevalues",
+  "info": {
+    "displayName": "corevalues",
+    "icon": "address-card"
+  },
+  "options": {},
+  "attributes": {
+    "corevalue": {
+      "displayName": "value",
+      "type": "component",
+      "repeatable": true,
+      "component": "value.value"
+    }
+  }
+}
