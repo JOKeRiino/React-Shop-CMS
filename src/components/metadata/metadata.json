@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_metadata_metadata",
+  "info": {
+    "displayName": "metadata",
+    "icon": "air-freshener",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "desc": {
+      "type": "string"
+    }
+  }
+}
