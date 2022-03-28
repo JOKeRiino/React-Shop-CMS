@@ -44,7 +44,7 @@
     },
     "variant": {
       "type": "component",
-      "repeatable": true,
+      "repeatable": false,
       "component": "variant.variant"
     },
     "Washing": {
@@ -63,11 +63,15 @@
       "component": "metadata.metadata"
     },
     "bestseller_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
+    },
+    "price_id": {
+      "type": "string"
     }
   }
 }
