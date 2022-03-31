@@ -21,6 +21,8 @@ module.exports = createCoreController('api::order.order', ({ strapi }) => ({
 			"payment_status": session.payment_status,
 			"products": ctx.request.body.data.products,
 			"customer_email": session.customer_details.email,
+			"customer_name": session.customer_details.name,
+			"customer_shipping_address": session.customer_details.address
 		};
 		const response = await super.create(newCtx);
 		return response;
