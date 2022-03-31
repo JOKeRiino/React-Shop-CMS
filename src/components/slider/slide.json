@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_slider_slides",
+  "info": {
+    "displayName": "slide",
+    "icon": "allergies",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "img": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "cta": {
+      "type": "string"
+    },
+    "desc": {
+      "type": "string"
+    },
+    "path": {
+      "type": "string"
+    }
+  }
+}

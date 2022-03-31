@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_slider_homeimagesliders",
+  "info": {
+    "displayName": "Homeimageslider",
+    "icon": "atom"
+  },
+  "options": {},
+  "attributes": {
+    "slide": {
+      "displayName": "slide",
+      "type": "component",
+      "repeatable": true,
+      "component": "slider.slide"
+    }
+  }
+}
