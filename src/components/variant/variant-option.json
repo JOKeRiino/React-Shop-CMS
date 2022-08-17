@@ -12,6 +12,9 @@
     },
     "inventory_stock": {
       "type": "integer"
+    },
+    "price_id": {
+      "type": "string"
     }
   }
 }

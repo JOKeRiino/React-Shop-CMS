@@ -62,14 +62,6 @@
       "repeatable": false,
       "component": "metadata.metadata"
     },
-    "bestseller_image": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
-      "allowedTypes": [
-        "images"
-      ]
-    },
     "price_id": {
       "type": "string"
     }
